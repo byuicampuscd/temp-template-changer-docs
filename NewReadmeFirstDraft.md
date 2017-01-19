@@ -53,6 +53,8 @@ The asterisks before the variable names indicates that those variables are manda
 
 To create this file yourself, just create a new .txt file in the folder containing the html files to change, and fill it in following the format of the example. (Note that the spacing between bars was for stylistic purposes, and is not necessary to function correctly; also note that the ordering of the list of variables does not matter)
 
+As a last note here, there are two built-in variables - fileName and fileContents - as the HELP section indicated when you run template-changer without parameters. The fileName variable gives you the name of the file, including the extension. The fileContents gives you everything in the html file. This is mostly helpful if you come across something like a file that only contains the 'guts' without the beginning and ending parts of a normal html page. You could then just use the variable to include it all in the new file between those missing parts you would then create.
+
 ### Template
 
 Run "template-changer -t" to see an example of the template file.
