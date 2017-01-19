@@ -1,0 +1,5 @@
+*middle      | #article                   | html
+*title       | #title                     | text
+*welcomeSrc  | #welcome img:first-of-type | src
+*paragraphs  | p                          | outerhtml | array
+isSplash     | .splash                    | bool

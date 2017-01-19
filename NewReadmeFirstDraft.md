@@ -47,7 +47,7 @@ The type of variables defines what information you want to extract from the elem
 - bool - This will be set to true if the element exists, and false if it does not.
 - ... - Any other value will be assumed to be an attribute, in which case its value is extracted
 
-You probably also noticed an 'array' after a variable type. This is an optional parameter which if used must follow the variable type with a pipe ( | ) in between, and indicates that the variable is an array. Thus, given the selector p and type html and array, it becomes an array holding the inner html of each p element in the file.
+You probably also noticed an 'array' after a variable type. This is an optional parameter which if used must follow the variable type with a pipe ( | ) in between, and indicates that the variable is an array. Thus, given the selector p and type outerhtml and array, it becomes an array holding the tag and inner html of each p element in the file.
 
 The asterisks before the variable names indicates that those variables are mandatory and thus forces an error if the element is not found. What follows when this happens will be explained later.
 
