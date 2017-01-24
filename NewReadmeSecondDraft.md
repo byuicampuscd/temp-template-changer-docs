@@ -20,15 +20,16 @@ Once done with those, install the template changer by running the following in t
 
 Run `template-changer` to see how it can be used.
 
-## Steps to follow
+## Overview of Steps to Follow
 
-- Download all the files
-- Make your template by looking at what you've got and what you want it to be
-- Run it
-- Once run, go and check that to make sure that all of those files successfully went through
-- If it didn't, a folder is made that you can go look at to find the issue(s)
-- Then add the needed logic
-- Repeat until all are done, and is one folder (not any subfolders of errors)
+- Download all the html files you want to change from the course
+- Look at the html files and figure out what needs to change
+- Make your template files accordingly
+- Run the program
+- Once run, go and check the new folder to make sure that all of the html files were successfully modified - you can tell this if there's no subfolders created
+- If a subfolder(s) is created, use them to find out what the issue(s) are
+- Then add the needed logic to your template files
+- Repeat until the newest folder has no subfolders
 
 ## Making the template
 
