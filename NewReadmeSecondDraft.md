@@ -37,7 +37,14 @@ For each template you make, you will need to actually create two files. One is a
 
 ### Variables
 
-Run "template-changer -v" to see an example of the variables file.
+To see an example of the variables file run:
+```
+template-changer -v
+```
+To make a example template file run:
+```
+template-changer -v > nameOfVarFile.txt
+```
 
 You will notice three columns. They are: Variable Name | Element Selector | Type of Variable
 
@@ -62,7 +69,15 @@ As a last note here, there are two built-in variables - fileName and fileContent
 
 ### Template
 
-Run "template-changer -t" to see an example of the template file.
+To see an example of the template file run:
+```
+template-changer -t
+```
+
+To make a example template file run:
+```
+template-changer -t > nameOfTemplateFile.handlebars
+```
 
 Before reading this, you should have a general idea of how a handlebars template works. The template-changer attempts to create a new version of each html file using the template file you create. When it runs into a variable in a handlebars expression, it will try to use the specified information you defined in the variables file which it obtains from the old version of the html file. 
 
