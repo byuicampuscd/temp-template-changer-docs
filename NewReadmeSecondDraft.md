@@ -98,10 +98,17 @@ Another example is using boolean logic, where if you created a boolean (bool) va
 ```
 
 Note that the template file should be a .handlebars file.
+Be sure to modify the template to fit the variables that you would like to replace.
 
 ## Running template-changer
 
-Now you should have a copy of the html files downloaded to a new folder and your template made and placed in the same folder. Once that is done, in the command line go to the folder containing the files, and run the template-changer with the variable and template files as parameters, respectively. This will create a new folder with the modified html files. Open the folder, and verify the files are all there. 
+Now you should have a copy of the html files downloaded to a new folder and your template made and placed in the same folder. Once that is done, in the command line go to the folder containing the files, and run the template-changer with the variable and template files as parameters, respectively. For example:
+
+```
+template-changer tempalteName.txt templateName.handlebars
+```
+
+This will create a new folder with the modified html files. Open the folder, and verify the files are all there. 
 
 If a subfolder appears, it means the program had an error trying to change the files contained inside. This is what happens when an element wasn't found for a variable you indicated as mandatory with an asterisk. Note that the subfolder name indicates what variable(s) had the error. Now you can go in to the files, see what caused the issue and what you do need, and correct/add to your variables or template to fix the issue. Once you do this, make sure you're in the folder with the html files in the command line and run the program again. Notice that this creates a new folder with the same name, except the number increments by 1. This allows you to repeat this process, while keeping a copy of every step.
 
