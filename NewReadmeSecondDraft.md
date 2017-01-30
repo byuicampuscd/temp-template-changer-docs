@@ -6,7 +6,7 @@ Used to automate the process of changing a group of html files to follow a templ
 
 - The structure of course html pages and supporting files
 - How to open a command line, run commands on it, and change directories in it.
-- [Handlebars](http://handlebarsjs.com/) (at least the basic idea and expressions)
+- [Handlebars](http://handlebarsjs.com/) (at least the basic idea)
 
 ## Setup
 
@@ -27,21 +27,21 @@ Run `template-changer` to see how it can be used.
 - Make your template files accordingly
 - Run the program
 - Once run, go and check the new folder to make sure that all of the html files were successfully modified - you can tell this if there's no subfolders created
-- If a subfolder(s) is created, use them to find out what the issue(s) are
+- If a subfolder(s) is created, use them to find out what the issue(s) is
 - Then add the needed logic to your template files
 - Repeat until the newest folder has no subfolders
 
 ## Making the template
 
-For each template you make, you will need to actually create two files. One is a simple text file declaring the variables to use in the template. The other is a .handlebars file that contains the actual template. If you don't know at least the basics of handlebars, please go to the link given above before continuing.
+For each template you make, you will need to actually create two files. One is a simple text file declaring the variables to use in the template and defining where the information the variables store will come from. This will be used to create the context shown in the Handlebars Get Started page. The other is a .handlebars file that contains the actual template. If you don't know at least the basics of handlebars, please go to the link given above before continuing.
 
 ### Variables
 
-To see an example of the variables file run:
+To see an example of the variables file, run:
 ```
 template-changer -v
 ```
-To make a example template file run:
+To make an example variables file, run:
 ```
 template-changer -v > nameOfVarFile.txt
 ```
@@ -69,12 +69,12 @@ As a last note here, there are two built-in variables - fileName and fileContent
 
 ### Template
 
-To see an example of the template file run:
+To see an example of the template file, run:
 ```
 template-changer -t
 ```
 
-To make a example template file run:
+To make an example template file, run:
 ```
 template-changer -t > nameOfTemplateFile.handlebars
 ```
