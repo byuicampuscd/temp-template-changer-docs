@@ -1,0 +1,11 @@
+{
+  "name": "temp-template-changer-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "NA"
+  },
+  "author": "David Rosevear",
+  "license": "UNLICENSED"
+}
