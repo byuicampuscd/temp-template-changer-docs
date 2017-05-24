@@ -7,5 +7,8 @@
     "test": "NA"
   },
   "author": "David Rosevear",
+  "contributors": [{
+    "name": "Joshua McKinney"
+  }],
   "license": "UNLICENSED"
 }
